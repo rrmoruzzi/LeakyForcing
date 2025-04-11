@@ -1,4 +1,4 @@
-# Leaky Forcing Number Algorithm
+## Leaky Forcing Number Algorithm for Standard and Positive Semidefinite Zero Forcing
 
 ### Overview
 This repository contains a SageMath-based implementation for computing leaky forcing sets and the leaky forcing number of a graph for both standard zero forcing and positive semidefinite zero forcing. The provided algorithms are designed to identify forts in the graph and determine the minimal forcing set intersecting all such forts for a specified number of leaks where, for a given graph, a fort is a subset of vertices for which, coloring all other vertices outside the blue, no other forces can take place under the specified forcing rule. This implementation was motivated by [1] and [2]. Note that this code relies on SageMath's built-in graph packages and so, Python must be configured to use a Sagemath kernel. This code was written using SageMath v.10.4 [3]. 
